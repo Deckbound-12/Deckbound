@@ -3,16 +3,16 @@ guid: 3c88ddca42a9f4832ac606f9cb000677
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3249145709688159479
+      213: -7825425594910306873
     second: hero_silent_0
   - first:
-      213: -3472671268816154069
+      213: -3238094060745670517
     second: hero_silent_1
   - first:
-      213: -8940171540300653914
+      213: -8969901794727561310
     second: hero_silent_2
   - first:
-      213: -4321886827790431494
+      213: -843062153626853642
     second: hero_silent_3
   externalObjects: {}
   serializedVersion: 13
@@ -43,10 +43,10 @@ TextureImporter:
   cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 1
-  maxTextureSize: 2048
+  maxTextureSize: 8192
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 230
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,10 +83,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,10 +96,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,20 +114,20 @@ TextureImporter:
       name: hero_silent_0
       rect:
         serializedVersion: 2
-        x: 375
-        y: 119
-        width: 610
-        height: 850
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.4699, y: 0.6094}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9038d861137b8e2d0800000000000000
-      internalID: -3249145709688159479
+      spriteID: 4dd2649d6a0b468e96c305df91bad6ca
+      internalID: -7825425594910306873
       vertices: []
       indices: 
       edges: []
@@ -136,20 +136,20 @@ TextureImporter:
       name: hero_silent_1
       rect:
         serializedVersion: 2
-        x: 1655
-        y: 119
-        width: 610
-        height: 842
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.4699, y: 0.6094}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b22128841e79ecfc0800000000000000
-      internalID: -3472671268816154069
+      spriteID: 99802ae10e4844cbaefcd8144a86a2ab
+      internalID: -3238094060745670517
       vertices: []
       indices: 
       edges: []
@@ -158,20 +158,20 @@ TextureImporter:
       name: hero_silent_2
       rect:
         serializedVersion: 2
-        x: 2935
-        y: 119
-        width: 610
-        height: 834
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2560
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.4699, y: 0.6094}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6aa9255e9512ee380800000000000000
-      internalID: -8940171540300653914
+      spriteID: 8ed89f2ed2884d49a8421d178e052f43
+      internalID: -8969901794727561310
       vertices: []
       indices: 
       edges: []
@@ -180,20 +180,20 @@ TextureImporter:
       name: hero_silent_3
       rect:
         serializedVersion: 2
-        x: 4215
-        y: 119
-        width: 610
-        height: 842
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3840
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.4699, y: 0.6094}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: afa8c1614d29504c0800000000000000
-      internalID: -4321886827790431494
+      spriteID: 836444759fdd4c5ebdbdfe0716e78a75
+      internalID: -843062153626853642
       vertices: []
       indices: 
       edges: []
@@ -212,10 +212,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hero_silent_0: -3249145709688159479
-      hero_silent_1: -3472671268816154069
-      hero_silent_2: -8940171540300653914
-      hero_silent_3: -4321886827790431494
+      hero_silent_0: -7825425594910306873
+      hero_silent_1: -3238094060745670517
+      hero_silent_2: -8969901794727561310
+      hero_silent_3: -843062153626853642
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

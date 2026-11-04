@@ -3,14 +3,11 @@ guid: 75701ffaf31336308b4e4edc84ae80dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 615984040471571618
+      213: -5299472387349606166
     second: watcher_attack_0
   - first:
-      213: 3387529213210756581
+      213: -4767125419864230680
     second: watcher_attack_1
-  - first:
-      213: -1834459208570703680
-    second: watcher_attack_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,10 +37,10 @@ TextureImporter:
   cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 1
-  maxTextureSize: 2048
+  maxTextureSize: 8192
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 230
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -80,10 +77,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,10 +90,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -111,20 +108,20 @@ TextureImporter:
       name: watcher_attack_0
       rect:
         serializedVersion: 2
-        x: 279
-        y: 159
-        width: 634
-        height: 826
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.4262, y: 0.6441}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ac2e9f983a6c8800800000000000000
-      internalID: 615984040471571618
+      spriteID: 6c2d810784a348868a6727ef6bf63022
+      internalID: -5299472387349606166
       vertices: []
       indices: 
       edges: []
@@ -133,42 +130,20 @@ TextureImporter:
       name: watcher_attack_1
       rect:
         serializedVersion: 2
-        x: 871
-        y: 455
-        width: 58
-        height: 146
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.3168, y: 0.6719}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e58fab1fdbe20f20800000000000000
-      internalID: 3387529213210756581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: watcher_attack_2
-      rect:
-        serializedVersion: 2
-        x: 1327
-        y: 191
-        width: 1082
-        height: 642
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c0f236b111ba86e0800000000000000
-      internalID: -1834459208570703680
+      spriteID: 9a078e9fc0f4402bacb88f4bd1284210
+      internalID: -4767125419864230680
       vertices: []
       indices: 
       edges: []
@@ -187,9 +162,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      watcher_attack_0: 615984040471571618
-      watcher_attack_1: 3387529213210756581
-      watcher_attack_2: -1834459208570703680
+      watcher_attack_0: -5299472387349606166
+      watcher_attack_1: -4767125419864230680
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

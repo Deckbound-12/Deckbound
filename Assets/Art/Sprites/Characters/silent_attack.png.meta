@@ -3,17 +3,11 @@ guid: e9093b9ab85421e37b4286f87f343fa9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7865751074983485140
+      213: -4128573903978852346
     second: silent_attack_0
   - first:
-      213: -1567492055543778116
+      213: -1436970525385160015
     second: silent_attack_1
-  - first:
-      213: -6770571207978712861
-    second: silent_attack_2
-  - first:
-      213: 6283063251706512393
-    second: silent_attack_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,10 +37,10 @@ TextureImporter:
   cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 1
-  maxTextureSize: 2048
+  maxTextureSize: 8192
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 230
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,10 +77,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,10 +90,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,20 +108,20 @@ TextureImporter:
       name: silent_attack_0
       rect:
         serializedVersion: 2
-        x: 319
-        y: 815
-        width: 26
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.4699, y: 0.6094}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4de990c9de2c82d60800000000000000
-      internalID: 7865751074983485140
+      spriteID: 54bbe1bd2ccc4f75b4ce5d742c1bac6f
+      internalID: -4128573903978852346
       vertices: []
       indices: 
       edges: []
@@ -136,64 +130,20 @@ TextureImporter:
       name: silent_attack_1
       rect:
         serializedVersion: 2
-        x: 351
-        y: 119
-        width: 634
-        height: 906
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.3918, y: 0.6233}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb4f019c7462f3ae0800000000000000
-      internalID: -1567492055543778116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: silent_attack_2
-      rect:
-        serializedVersion: 2
-        x: 1615
-        y: 135
-        width: 882
-        height: 762
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e001fdbb591a02a0800000000000000
-      internalID: -6770571207978712861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: silent_attack_3
-      rect:
-        serializedVersion: 2
-        x: 2503
-        y: 759
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90407430dbce13750800000000000000
-      internalID: 6283063251706512393
+      spriteID: 791f93ca6c8e4435a7b1bf7669fac852
+      internalID: -1436970525385160015
       vertices: []
       indices: 
       edges: []
@@ -212,10 +162,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      silent_attack_0: 7865751074983485140
-      silent_attack_1: -1567492055543778116
-      silent_attack_2: -6770571207978712861
-      silent_attack_3: 6283063251706512393
+      silent_attack_0: -4128573903978852346
+      silent_attack_1: -1436970525385160015
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
