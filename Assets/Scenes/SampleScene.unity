@@ -5296,11 +5296,11 @@ MonoBehaviour:
   displayName: Inamic
   maxHp: 20
   moves:
-  - moveName: PoisionusSlash
-    damage: 4
+  - moveName: PoisionusScratch
+    damage: 1
     armor: 0
-    poison: 4
-    vulnerable: 0
+    poison: 1
+    vulnerable: 1
   - moveName: Reinforce
     damage: 0
     armor: 10
