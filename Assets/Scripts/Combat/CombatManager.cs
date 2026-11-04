@@ -41,6 +41,7 @@ namespace DeckBound.Combat
         // UI-ul asculta aici ca sa se redeseneze.
         public event Action OnCombatChanged;
         public event Action<CombatState> OnCombatEnded;
+        public event Action<Card> OnCardPlayed;
 
         private void Start()
         {
@@ -138,6 +139,7 @@ namespace DeckBound.Combat
             }
 
             Deck.Discard(card);
+            OnCardPlayed?.Invoke(card);
 
             if (!CheckCombatEnd()) NotifyChanged();
             return true;
