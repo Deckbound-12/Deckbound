@@ -3,16 +3,16 @@ guid: 3050bb73a67216378965effebbecce89
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2006645543242699456
+      213: -2453714368305503850
     second: hero_watcher_0
   - first:
-      213: -9032720161465655233
+      213: -7149033915199385574
     second: hero_watcher_1
   - first:
-      213: -2083850744176585308
+      213: -7563945968382117707
     second: hero_watcher_2
   - first:
-      213: -8219819349658285855
+      213: -7596657129405752389
     second: hero_watcher_3
   externalObjects: {}
   serializedVersion: 13
@@ -43,10 +43,10 @@ TextureImporter:
   cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 1
-  maxTextureSize: 2048
+  maxTextureSize: 8192
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 230
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,10 +83,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,10 +96,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,20 +114,20 @@ TextureImporter:
       name: hero_watcher_0
       rect:
         serializedVersion: 2
-        x: 447
-        y: 143
-        width: 298
-        height: 874
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.4418, y: 0.6302}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 04de5e49286f624e0800000000000000
-      internalID: -2006645543242699456
+      spriteID: b842d73c142e491aa9eca1c80b55638b
+      internalID: -2453714368305503850
       vertices: []
       indices: 
       edges: []
@@ -136,20 +136,20 @@ TextureImporter:
       name: hero_watcher_1
       rect:
         serializedVersion: 2
-        x: 1727
-        y: 143
-        width: 298
-        height: 866
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.4418, y: 0.6302}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f30a45cded455a280800000000000000
-      internalID: -9032720161465655233
+      spriteID: a2e5d4de45aa4e498257bfa8b2305632
+      internalID: -7149033915199385574
       vertices: []
       indices: 
       edges: []
@@ -158,20 +158,20 @@ TextureImporter:
       name: hero_watcher_2
       rect:
         serializedVersion: 2
-        x: 3007
-        y: 143
-        width: 298
-        height: 858
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2560
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.4418, y: 0.6302}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a5db64f9cca413e0800000000000000
-      internalID: -2083850744176585308
+      spriteID: 0d56bd7e775747d8a09dd08e2e9b64c7
+      internalID: -7563945968382117707
       vertices: []
       indices: 
       edges: []
@@ -180,20 +180,20 @@ TextureImporter:
       name: hero_watcher_3
       rect:
         serializedVersion: 2
-        x: 4287
-        y: 143
-        width: 298
-        height: 866
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3840
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.4418, y: 0.6302}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e84cb91ad55ded80800000000000000
-      internalID: -8219819349658285855
+      spriteID: 451b4c6ad2ac4304ab6b4e30f58a882e
+      internalID: -7596657129405752389
       vertices: []
       indices: 
       edges: []
@@ -212,10 +212,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      hero_watcher_0: -2006645543242699456
-      hero_watcher_1: -9032720161465655233
-      hero_watcher_2: -2083850744176585308
-      hero_watcher_3: -8219819349658285855
+      hero_watcher_0: -2453714368305503850
+      hero_watcher_1: -7149033915199385574
+      hero_watcher_2: -7563945968382117707
+      hero_watcher_3: -7596657129405752389
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
