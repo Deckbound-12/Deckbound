@@ -5,6 +5,15 @@ TextureImporter:
   - first:
       213: -2901530757592855085
     second: hero_bruiser_0
+  - first:
+      213: -4252200263451093435
+    second: hero_bruiser_1
+  - first:
+      213: -2267178560250459336
+    second: hero_bruiser_2
+  - first:
+      213: -7954429122304210205
+    second: hero_bruiser_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -34,10 +43,10 @@ TextureImporter:
   cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: 1
-  maxTextureSize: 2048
+  maxTextureSize: 8192
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,12 +55,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 230
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,10 +83,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -87,10 +96,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,10 +109,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,20 +127,86 @@ TextureImporter:
       name: hero_bruiser_0
       rect:
         serializedVersion: 2
-        x: 95
-        y: 3
-        width: 322
-        height: 464
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.5215, y: 0.54}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ddcec02621bbb7d0800000000000000
+      spriteID: 85b693db435e477bb96fe2545548e234
       internalID: -2901530757592855085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_bruiser_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.5215, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee0b7da148b4547aef8b3ddb837117d
+      internalID: -4252200263451093435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_bruiser_2
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.5215, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4e33dcabb14f5ab2a5d6aaa903402a
+      internalID: -2267178560250459336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hero_bruiser_3
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1280
+        height: 1152
+      alignment: 9
+      pivot: {x: 0.5215, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395c3372020844c2ad21b824bb4877bd
+      internalID: -7954429122304210205
       vertices: []
       indices: 
       edges: []
@@ -151,6 +226,9 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       hero_bruiser_0: -2901530757592855085
+      hero_bruiser_1: -4252200263451093435
+      hero_bruiser_2: -2267178560250459336
+      hero_bruiser_3: -7954429122304210205
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

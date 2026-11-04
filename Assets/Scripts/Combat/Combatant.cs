@@ -28,6 +28,14 @@ namespace DeckBound.Combat
             ResetForCombat();
         }
 
+<<<<<<< HEAD
+=======
+        public void SetDisplayName(string value)
+        {
+            displayName = value;
+        }
+
+>>>>>>> 19ae5a0a653abe80a5121c0674173027b61b1086
         public virtual void ResetForCombat()
         {
             CurrentHp = maxHp;

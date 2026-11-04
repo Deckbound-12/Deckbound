@@ -41,6 +41,10 @@ namespace DeckBound.Combat
         // UI-ul asculta aici ca sa se redeseneze.
         public event Action OnCombatChanged;
         public event Action<CombatState> OnCombatEnded;
+<<<<<<< HEAD
+=======
+        public event Action<Card> OnCardPlayed;
+>>>>>>> 19ae5a0a653abe80a5121c0674173027b61b1086
 
         private void Start()
         {
@@ -138,6 +142,10 @@ namespace DeckBound.Combat
             }
 
             Deck.Discard(card);
+<<<<<<< HEAD
+=======
+            OnCardPlayed?.Invoke(card);
+>>>>>>> 19ae5a0a653abe80a5121c0674173027b61b1086
 
             if (!CheckCombatEnd()) NotifyChanged();
             return true;

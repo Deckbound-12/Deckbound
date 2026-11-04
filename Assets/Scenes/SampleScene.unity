@@ -461,6 +461,9 @@ GameObject:
   - component: {fileID: 154870403}
   - component: {fileID: 154870402}
   - component: {fileID: 154870404}
+  - component: {fileID: 154870405}
+  - component: {fileID: 154870406}
+  - component: {fileID: 154870407}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -546,17 +549,64 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 45c7985b1c5854a4faca271153fccd8c, type: 3}
+  m_Sprite: {fileID: -2901530757592855085, guid: 45c7985b1c5854a4faca271153fccd8c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.12, y: 5.12}
+  m_Size: {x: 5.5652, y: 5.0087}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!95 &154870405
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154870401}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 39e8666a9b1a407da4af75e69aa8449f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &154870406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154870401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db621aafe5f6452eaeba4e72a068125d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DeckBound.Combat.CardPlayAnimator
+  combat: {fileID: 1071230625}
+--- !u!114 &154870407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154870401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5adec531ee2c4eb1b7406a9e0ecf1c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DeckBound.Combat.SelectedHeroLoader
 --- !u!1 &211559042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1024,6 +1074,7 @@ MonoBehaviour:
   victoryPanel: {fileID: 1730560429}
   defeatPanel: {fileID: 971085770}
   restartButton: {fileID: 1700817660}
+  victoryRestartButton: {fileID: 303051190}
   logText: {fileID: 0}
 --- !u!1 &438182399
 GameObject:
@@ -3172,7 +3223,7 @@ GameObject:
   - component: {fileID: 1334530214}
   - component: {fileID: 1334530213}
   m_Layer: 6
-  m_Name: bg_crypt
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3227,12 +3278,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1d95502b8bb88f347ae7643dfa6ead8e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e86071c115a950291a4117174adb8ba9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 19.2, y: 10.8}
+  m_Size: {x: 19.2, y: 11.7531}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3247,7 +3298,7 @@ Transform:
   m_GameObject: {fileID: 1334530212}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalPosition: {x: 0, y: -0.8765, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5296,11 +5347,11 @@ MonoBehaviour:
   displayName: Inamic
   maxHp: 20
   moves:
-  - moveName: PoisionusScratch
-    damage: 1
+  - moveName: PoisionusSlash
+    damage: 4
     armor: 0
-    poison: 1
-    vulnerable: 1
+    poison: 4
+    vulnerable: 0
   - moveName: Reinforce
     damage: 0
     armor: 10

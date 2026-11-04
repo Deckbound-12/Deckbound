@@ -46,6 +46,7 @@ namespace DeckBound.UI
         [SerializeField] private GameObject victoryPanel;
         [SerializeField] private GameObject defeatPanel;
         [SerializeField] private Button restartButton;
+        [SerializeField] private Button victoryRestartButton;
 
         [Header("Log (optional)")]
         [SerializeField] private TMP_Text logText;
@@ -64,6 +65,7 @@ namespace DeckBound.UI
             combat.OnCombatChanged += Refresh;
             if (endTurnButton != null) endTurnButton.onClick.AddListener(combat.EndPlayerTurn);
             if (restartButton != null) restartButton.onClick.AddListener(combat.StartCombat);
+            if (victoryRestartButton != null) victoryRestartButton.onClick.AddListener(combat.StartCombat);
         }
 
         private void OnDisable()
@@ -71,6 +73,7 @@ namespace DeckBound.UI
             combat.OnCombatChanged -= Refresh;
             if (endTurnButton != null) endTurnButton.onClick.RemoveListener(combat.EndPlayerTurn);
             if (restartButton != null) restartButton.onClick.RemoveListener(combat.StartCombat);
+            if (victoryRestartButton != null) victoryRestartButton.onClick.RemoveListener(combat.StartCombat);
         }
 
         private void Start()
