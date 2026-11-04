@@ -28,6 +28,11 @@ namespace DeckBound.Combat
             ResetForCombat();
         }
 
+        public void SetDisplayName(string value)
+        {
+            displayName = value;
+        }
+
         public virtual void ResetForCombat()
         {
             CurrentHp = maxHp;
@@ -54,6 +59,14 @@ namespace DeckBound.Combat
             if (IsDead) OnDied?.Invoke(this);
             return hpLoss;
         }
+
+        // Adaugă această metodă în interiorul clasei Combatant
+public void SetDisplayName(string name)
+{
+    // Dacă ai un câmp sau proprietate pentru nume (ex: characterName sau displayName)
+    // adaptează linia de mai jos:
+    this.name = name; 
+}
 
         public void GainArmor(int amount)
         {

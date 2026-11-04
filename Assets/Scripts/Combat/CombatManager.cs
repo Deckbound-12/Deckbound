@@ -41,15 +41,18 @@ namespace DeckBound.Combat
         // UI-ul asculta aici ca sa se redeseneze.
         public event Action OnCombatChanged;
         public event Action<CombatState> OnCombatEnded;
-<<<<<<< HEAD
-=======
         public event Action<Card> OnCardPlayed;
->>>>>>> 19ae5a0a653abe80a5121c0674173027b61b1086
 
         private void Start()
         {
             if (startOnPlay) StartCombat();
         }
+
+        // Exemplu de metodă în CombatManager (adaptează tipul cărții/parametrilor conform proiectului vostru):
+public void OnCardPlayed(CardData card, Combatant target = null)
+{
+    // Logica executată la jucarea unei cărți
+}
 
         public void StartCombat()
         {
@@ -142,10 +145,7 @@ namespace DeckBound.Combat
             }
 
             Deck.Discard(card);
-<<<<<<< HEAD
-=======
             OnCardPlayed?.Invoke(card);
->>>>>>> 19ae5a0a653abe80a5121c0674173027b61b1086
 
             if (!CheckCombatEnd()) NotifyChanged();
             return true;
